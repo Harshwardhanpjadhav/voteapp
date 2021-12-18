@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         document.querySelector(".result").innerHTML="Tie";
       }
-      document.querySelector(".rinfo").innerHTML=`Votes For candidte 1 $(count1)`;
+      
     }
 
     //---------------------- On Reset ------------------------------
@@ -50,9 +50,23 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector("#first").innerHTML= count1;
       document.querySelector("#second").innerHTML= count2;
       document.querySelector(".result").innerHTML="";
+      document.querySelector(".info1").innerHTML= "";
+      document.querySelector(".info2").innerHTML= "";
 
 
 
     };
+
+
+
+    // ---------------------------Show Result ---------------------
+
+    document.querySelector("#sho").onclick= function(){
+      document.querySelector(".info1").innerHTML= `candidate 1 votes : ${count1}`;
+      document.querySelector(".info2").innerHTML= `candidate 2 votes : ${count2}`;
+
+
+    }
+
 
 })
