@@ -1,10 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () { 
     
+// ------------------------On Submit--------------------------------
+
+    // document.querySelector('.Sub').onclick=function(){
+
+    // var n1 = document.querySelector('.dd1').value;
+    // var n2 = document.querySelector('.dd2').value;
+    // console.log(n1)
+    // document.querySelector(".cd1").innerHTML=n1;
+    // document.querySelector(".cd2").innerHTML=n2;
+    
+    // document.querySelector('.dd1').innerHTML="";
+    // document.querySelector('.dd1').innerHTML="";
+    // }  
 
   //------------------ For First Voter -----------------------------
 
 
-    var count1 = 0;
+     var count1 = 0;
       document.querySelector("#vf").onclick = function (){
       count1 += 1;
       document.querySelector("#first").innerHTML= count1;
