@@ -1,0 +1,70 @@
+/* -----------Default Edit-------------- */
+
+
+body{
+    display: block;
+    padding: 0px;
+    margin: 10px;
+}
+
+/* ------------Div Editing-------------- */
+
+.container{
+
+    background-color: rgb(142, 233, 233);
+    
+    padding: 10px;
+    border: 2px solid black;
+}
+.c2{
+
+}
+.voting{
+text-align: center;
+
+}
+.fin{
+    text-align: center;
+}
+
+.result{
+    text-align: center;    
+}
+.vot{
+   
+   
+}
+
+
+/* ----------Editing By Class N Id------------ */
+
+
+
+#vfi{
+    padding: 8px;
+}
+#re{
+    padding: 8px;
+}
+#vf{
+    padding: 8px;
+}
+#vs{
+    padding: 8px;
+}
+.result{
+    font-size: 50px;
+}
+
+/* -------------Editing Ul list ------------ */
+
+ul li {
+    background-color: rgb(170, 243, 248);
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+
+}
+li{
+    text-align: center;
+}
